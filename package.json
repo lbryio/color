@@ -1,0 +1,24 @@
+{
+  "author": "Paul Anthony Webb",
+  "bugs": {
+    "url": "https://github.com/lbryio/color/issues"
+  },
+  "description": "Color schemes for LBRY properties",
+  "files": [
+    "lbry-color.css",
+    "lbry-color.json",
+    "lbry-color.scss"
+  ],
+  "homepage": "https://github.com/lbryio/color",
+  "license": "MIT",
+  "main": "lbry-color.json",
+  "name": "@lbry/color",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbryio/color.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
