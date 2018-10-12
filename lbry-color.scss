@@ -26,11 +26,11 @@ $base-green:  #51cf66;
 //  ───────────────────────────────────
 
 $lbry-gray-list: (
-  "1": mix($white, $base-gray, 40%),
-  "2": mix($white, $base-gray, 20%),
+  "1": mix($lbry-white, $base-gray, 40%),
+  "2": mix($lbry-white, $base-gray, 20%),
   "3": $base-gray,
-  "4": mix($black, $base-gray, 20%),
-  "5": mix($black, $base-gray, 40%)
+  "4": mix($lbry-black, $base-gray, 20%),
+  "5": mix($lbry-black, $base-gray, 40%)
 );
 
 $lbry-gray-1: map-get($lbry-gray-list, "1");
@@ -45,11 +45,11 @@ $lbry-gray-5: map-get($lbry-gray-list, "5");
 //  ───────────────────────────────────
 
 $lbry-teal-list: (
-  "1": mix($white, $base-teal, 40%),
-  "2": mix($white, $base-teal, 20%),
+  "1": mix($lbry-white, $base-teal, 40%),
+  "2": mix($lbry-white, $base-teal, 20%),
   "3": $base-teal,
-  "4": mix($black, $base-teal, 20%),
-  "5": mix($black, $base-teal, 40%)
+  "4": mix($lbry-black, $base-teal, 20%),
+  "5": mix($lbry-black, $base-teal, 40%)
 );
 
 $lbry-teal-1: map-get($lbry-teal-list, "1");
@@ -64,11 +64,11 @@ $lbry-teal-5: map-get($lbry-teal-list, "5");
 //  ───────────────────────────────────
 
 $lbry-cyan-list: (
-  "1": mix($white, $base-cyan, 40%),
-  "2": mix($white, $base-cyan, 20%),
+  "1": mix($lbry-white, $base-cyan, 40%),
+  "2": mix($lbry-white, $base-cyan, 20%),
   "3": $base-cyan,
-  "4": mix($black, $base-cyan, 20%),
-  "5": mix($black, $base-cyan, 40%)
+  "4": mix($lbry-black, $base-cyan, 20%),
+  "5": mix($lbry-black, $base-cyan, 40%)
 );
 
 $lbry-cyan-1: map-get($lbry-cyan-list, "1");
@@ -83,11 +83,11 @@ $lbry-cyan-5: map-get($lbry-cyan-list, "5");
 //  ───────────────────────────────────
 
 $lbry-blue-list: (
-  "1": mix($white, $base-blue, 40%),
-  "2": mix($white, $base-blue, 20%),
+  "1": mix($lbry-white, $base-blue, 40%),
+  "2": mix($lbry-white, $base-blue, 20%),
   "3": $base-blue,
-  "4": mix($black, $base-blue, 20%),
-  "5": mix($black, $base-blue, 40%)
+  "4": mix($lbry-black, $base-blue, 20%),
+  "5": mix($lbry-black, $base-blue, 40%)
 );
 
 $lbry-blue-1: map-get($lbry-blue-list, "1");
@@ -102,11 +102,11 @@ $lbry-blue-5: map-get($lbry-blue-list, "5");
 //  ───────────────────────────────────
 
 $lbry-indigo-list: (
-  "1": mix($white, $base-indigo, 40%),
-  "2": mix($white, $base-indigo, 20%),
+  "1": mix($lbry-white, $base-indigo, 40%),
+  "2": mix($lbry-white, $base-indigo, 20%),
   "3": $base-indigo,
-  "4": mix($black, $base-indigo, 20%),
-  "5": mix($black, $base-indigo, 40%)
+  "4": mix($lbry-black, $base-indigo, 20%),
+  "5": mix($lbry-black, $base-indigo, 40%)
 );
 
 $lbry-indigo-1: map-get($lbry-indigo-list, "1");
@@ -121,11 +121,11 @@ $lbry-indigo-5: map-get($lbry-indigo-list, "5");
 //  ───────────────────────────────────
 
 $lbry-violet-list: (
-  "1": mix($white, $base-violet, 40%),
-  "2": mix($white, $base-violet, 20%),
+  "1": mix($lbry-white, $base-violet, 40%),
+  "2": mix($lbry-white, $base-violet, 20%),
   "3": $base-violet,
-  "4": mix($black, $base-violet, 20%),
-  "5": mix($black, $base-violet, 40%)
+  "4": mix($lbry-black, $base-violet, 20%),
+  "5": mix($lbry-black, $base-violet, 40%)
 );
 
 $lbry-violet-1: map-get($lbry-violet-list, "1");
@@ -140,11 +140,11 @@ $lbry-violet-5: map-get($lbry-violet-list, "5");
 //  ───────────────────────────────────
 
 $lbry-grape-list: (
-  "1": mix($white, $base-grape, 40%),
-  "2": mix($white, $base-grape, 20%),
+  "1": mix($lbry-white, $base-grape, 40%),
+  "2": mix($lbry-white, $base-grape, 20%),
   "3": $base-grape,
-  "4": mix($black, $base-grape, 20%),
-  "5": mix($black, $base-grape, 40%)
+  "4": mix($lbry-black, $base-grape, 20%),
+  "5": mix($lbry-black, $base-grape, 40%)
 );
 
 $lbry-grape-1: map-get($lbry-grape-list, "1");
@@ -159,11 +159,11 @@ $lbry-grape-5: map-get($lbry-grape-list, "5");
 //  ───────────────────────────────────
 
 $lbry-pink-list: (
-  "1": mix($white, $base-pink, 40%),
-  "2": mix($white, $base-pink, 20%),
+  "1": mix($lbry-white, $base-pink, 40%),
+  "2": mix($lbry-white, $base-pink, 20%),
   "3": $base-pink,
-  "4": mix($black, $base-pink, 20%),
-  "5": mix($black, $base-pink, 40%)
+  "4": mix($lbry-black, $base-pink, 20%),
+  "5": mix($lbry-black, $base-pink, 40%)
 );
 
 $lbry-pink-1: map-get($lbry-pink-list, "1");
@@ -178,11 +178,11 @@ $lbry-pink-5: map-get($lbry-pink-list, "5");
 //  ───────────────────────────────────
 
 $lbry-red-list: (
-  "1": mix($white, $base-red, 40%),
-  "2": mix($white, $base-red, 20%),
+  "1": mix($lbry-white, $base-red, 40%),
+  "2": mix($lbry-white, $base-red, 20%),
   "3": $base-red,
-  "4": mix($black, $base-red, 20%),
-  "5": mix($black, $base-red, 40%)
+  "4": mix($lbry-black, $base-red, 20%),
+  "5": mix($lbry-black, $base-red, 40%)
 );
 
 $lbry-red-1: map-get($lbry-red-list, "1");
@@ -197,11 +197,11 @@ $lbry-red-5: map-get($lbry-red-list, "5");
 //  ───────────────────────────────────
 
 $lbry-orange-list: (
-  "1": mix($white, $base-orange, 40%),
-  "2": mix($white, $base-orange, 20%),
+  "1": mix($lbry-white, $base-orange, 40%),
+  "2": mix($lbry-white, $base-orange, 20%),
   "3": $base-orange,
-  "4": mix($black, $base-orange, 20%),
-  "5": mix($black, $base-orange, 40%)
+  "4": mix($lbry-black, $base-orange, 20%),
+  "5": mix($lbry-black, $base-orange, 40%)
 );
 
 $lbry-orange-1: map-get($lbry-orange-list, "1");
@@ -216,11 +216,11 @@ $lbry-orange-5: map-get($lbry-orange-list, "5");
 //  ───────────────────────────────────
 
 $lbry-yellow-list: (
-  "1": mix($white, $base-yellow, 40%),
-  "2": mix($white, $base-yellow, 20%),
+  "1": mix($lbry-white, $base-yellow, 40%),
+  "2": mix($lbry-white, $base-yellow, 20%),
   "3": $base-yellow,
-  "4": mix($black, $base-yellow, 20%),
-  "5": mix($black, $base-yellow, 40%)
+  "4": mix($lbry-black, $base-yellow, 20%),
+  "5": mix($lbry-black, $base-yellow, 40%)
 );
 
 $lbry-yellow-1: map-get($lbry-yellow-list, "1");
@@ -235,11 +235,11 @@ $lbry-yellow-5: map-get($lbry-yellow-list, "5");
 //  ───────────────────────────────────
 
 $lbry-lime-list: (
-  "1": mix($white, $base-lime, 40%),
-  "2": mix($white, $base-lime, 20%),
+  "1": mix($lbry-white, $base-lime, 40%),
+  "2": mix($lbry-white, $base-lime, 20%),
   "3": $base-lime,
-  "4": mix($black, $base-lime, 20%),
-  "5": mix($black, $base-lime, 40%)
+  "4": mix($lbry-black, $base-lime, 20%),
+  "5": mix($lbry-black, $base-lime, 40%)
 );
 
 $lbry-lime-1: map-get($lbry-lime-list, "1");
@@ -254,11 +254,11 @@ $lbry-lime-5: map-get($lbry-lime-list, "5");
 //  ───────────────────────────────────
 
 $lbry-green-list: (
-  "1": mix($white, $base-green, 40%),
-  "2": mix($white, $base-green, 20%),
+  "1": mix($lbry-white, $base-green, 40%),
+  "2": mix($lbry-white, $base-green, 20%),
   "3": $base-green,
-  "4": mix($black, $base-green, 20%),
-  "5": mix($black, $base-green, 40%)
+  "4": mix($lbry-black, $base-green, 20%),
+  "5": mix($lbry-black, $base-green, 40%)
 );
 
 $lbry-green-1: map-get($lbry-green-list, "1");
