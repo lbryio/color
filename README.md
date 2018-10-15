@@ -22,7 +22,7 @@ Your main Sass file:
 
 @import
 "@lbry/color/lbry-color",
-...,
+...
 ;
 ```
 
