@@ -26,6 +26,8 @@ Your main Sass file:
 ;
 ```
 
+If you want to use CSS variables in your Sass, append `.css` to the import line. So, `@import "@lbry/color/lbry-color.css"`.
+
 In your watch scripts for Sass files, ensure you load the `node_modules` path in order to `import` this module in your project without silly prefixes like `../../../`. What a mess.
 
 Example `package.json` scripts section:
