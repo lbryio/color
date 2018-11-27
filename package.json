@@ -1,5 +1,8 @@
 {
-  "author": "Paul Anthony Webb",
+  "author": {
+    "email": "paul+github@lbry.io",
+    "name": "Paul Anthony Webb"
+  },
   "bugs": {
     "url": "https://github.com/lbryio/color/issues"
   },
@@ -15,10 +18,10 @@
   "name": "@lbry/color",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lbryio/color.git"
+    "url": "https://github.com/lbryio/color.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

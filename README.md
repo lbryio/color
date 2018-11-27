@@ -20,10 +20,8 @@ Your main Sass file:
 ```scss
 @charset "utf-8";
 
-@import
-"@lbry/color/lbry-color",
-...
-;
+@import "@lbry/color/lbry-color";
+...your other Sass imports
 ```
 
 If you want to use CSS variables in your Sass, append `.css` to the import line. So, `@import "@lbry/color/lbry-color.css"`.
@@ -47,4 +45,4 @@ They are nearly identical, save for `--watch` and `--update`. Please refer to th
 
 ### License
 
-MIT
+[MIT](LICENSE) 2018 LBRY Inc.
