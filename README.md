@@ -1,5 +1,5 @@
-# color
-Color schemes for LBRY properties
+# @lbry/color
+> Color schemes for LBRY properties
 
 
 
@@ -9,7 +9,7 @@ Color schemes for LBRY properties
 $ npm i @lbry/color sass -D
 ```
 
-We recommend [Dart Sass](https://www.npmjs.com/package/sass) for its' focus on speed and low dependency count.
+We recommend using this module with [Dart Sass](https://www.npmjs.com/package/sass) for its' focus on speed and low dependency count.
 
 
 
