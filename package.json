@@ -13,7 +13,7 @@
     "lbry-color.scss"
   ],
   "homepage": "https://github.com/lbryio/color",
-  "license": "MIT",
+  "license": "BSD 3-Clause",
   "main": "lbry-color.json",
   "name": "@lbry/color",
   "repository": {
